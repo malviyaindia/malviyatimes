@@ -1,0 +1,16 @@
+{
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "description": "Welcome To Malviya Times.",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "https://www.malviyatimes.com/logo.png",
+      "sizes": "342x342",
+      "type": "image/png"
+    }
+  ],
+  "name": "Malviya Times",
+  "short_name": "Malviya Times",
+  "start_url": "index.html"
+}
