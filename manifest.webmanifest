@@ -5,7 +5,7 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "https://www.malviyatimes.com/logo.png",
+      "src": "https://www.malviyatimes.com/fav.png",
       "sizes": "342x342",
       "type": "image/png"
     }
