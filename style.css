@@ -7,6 +7,24 @@
 html{
 	height: 100%;
 }
+.selection{
+text-align: center;
+font-weight: bolder;
+font-size: 18px;
+background: #008BD6;
+color: white; 
+margin-bottom: 10px;
+padding: 8px 5px 5px 5px;}
+
+.selection a{
+   color: white;
+   margin: 0 10%;
+   text-decoration: none;
+}
+.selection a:visited{
+  color: white;
+}
+
 body{
    font-size: 11pt;
    color: #000030;
