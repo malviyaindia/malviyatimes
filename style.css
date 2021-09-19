@@ -11,18 +11,25 @@ html{
 text-align: center;
 font-weight: bolder;
 font-size: 18px;
-background: #008BD6;
-color: white; 
-margin: 59px 0 10px 0;
-padding: 8px 5px 5px 5px;}
+background: white;
+margin: 55px 0 10px 0;
+padding: 8px 5px 0px 10px;
+box-shadow: 0px 0.1px 3px gray;
+border-bottom: 0.5px solid black;
+}
 
 .selection a{
-   color: white;
+   color: gray;
    margin: 0 10%;
+   padding: 0 0 8px 0;
    text-decoration: none;
 }
+.selection a:hover{
+  color: #008BD6;
+  border-bottom: 2px solid #008BD6;
+}
 .selection a:visited{
-  color: white;
+  color: gray;
 }
 
 body{
@@ -78,13 +85,13 @@ body{
 #item3{
   height: 12px;
   font-size: 10px;
-  color: red;
+  color: #008BD6;
   overflow: hidden;
 }
 
 .material-icons{
         font-size: 35px;
-        color:  #008BD6;
+        color: #000030;
 }
 .version{
    display: none;
@@ -108,8 +115,8 @@ input,select{
 header{
   padding:15px;
   background: white;
-  box-shadow: 0px 0.1px 3px gray;
-
+  border-bottom: 0.5px solid black;
+  border-radius: 5% 5% 0 0;
 }
 .logo{
  width: 160px;
@@ -137,11 +144,12 @@ header{
   display: none;
 }
 footer{
+  border-radius: 5% 5% 0 0;
   text-align: center;
   padding: 5%;
   margin-top: auto;
   font-size: 20px;
-  background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to top ,#00ccff,#008BD6);
+  background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png),gray;
   color: white;
 }
 
@@ -188,7 +196,6 @@ footer ul li {
   top: 0;
   right: 0;
   left: 0;
-  background:white;
   position: fixed;
   }
  .logo{
