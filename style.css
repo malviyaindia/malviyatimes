@@ -28,9 +28,6 @@ border-bottom: 0.5px solid black;
   color: #008BD6;
   border-bottom: 2px solid #008BD6;
 }
-.selection a:visited{
-  color: gray;
-}
 
 body{
    font-size: 11pt;
