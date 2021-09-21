@@ -27,6 +27,7 @@
   <!-- Custom Styles -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://www.malviyatimes.com/biodata-resume-maker.css">
 
 </head>
 
@@ -50,17 +51,55 @@
 </div>
 </span>
 </header>
+     <div class="y">
+<h2>Biodata Resume Maker </h2>
+<p style="font-weight: normal; margin-top: 8px;" > Touch and hold a clip to pin it. Unpinned clips will be deleted after 1 hour.</p>	
+</div>
 
-		
-     <div class="flex" style="margin: 35% 5%; text-align: center;">
-     <a href="https://www.malviyatimes.com/calculator.html">
-             <i class="fas fa-exclamation-triangle"></i>
-       <h1>404 Error</h1>
-       
-       <p class="fas fa-external-link-alt"> There's nothing here! Go to malviya times</p>
-   </a>
-   <br><br><br>
- <h1 class="h1 fas fa-bomb"> Sorry, that page doesn’t exist!</h1> 
+        <div class="x">
+<label>Full Name</label>
+<input type="text" id="fname" autofocus>
+<label>Father Name</label>
+<input type="text" id="lname" >
+<label>Date Of Birth</label>
+<input type="date" value="2021-01-01" id="date">
+<label>Education</label>
+<input type="text" id="edu">
+<label>Profession</label>
+<input type="text" id="pro">
+<label>Gender</label>
+<input type="text" id="gen" >
+<label>Mobile Number</label>
+<input type="number" id="mob">
+<label>Email</label>
+<input type="email" id="mail">
+<label>Address</label>
+<input type="text" id="height">
+
+<label>Nationality</label>
+<input type="text" id="weight">
+<label>Marital Status</label>
+<input type="text" id="weight2">
+<label for="file">Upload Image</label>
+<input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)">
+ </div>
+    <div id="myDIV" >
+   <input placeholder="Example: your height" class="in add1" >
+   <input  placeholder="write your height" class="in add2" >
+    <input placeholder="Example: your weight" class="in add1" >
+   <input  placeholder="write your weight" class="in add2" >
+   </div>
+   <button class="in"  onclick="fun()"> Add More +</button>
+<button onclick="data()" >Submit</button>
+<h1 class="dhd">Personal Biodata</h1>
+<div class="xx">
+<div class="on3e" >
+<img id="output"/> 
+<div id="demo">
+</div>
+<button id="print" class="fas fa-print" onclick="window.print()" > Print</button>
+</div>
+ <div class="addthis_inline_share_toolbox"><p>Share This Page !</p><br></div>
 </div>
   <!-- Project -->
   <!-- footer area--->
@@ -73,6 +112,7 @@
   
  <ul class="list">
   <li><a>Services</a></li>
+  <li><a href="https://www.remove.bg/">Photo Editor</a></li>
   
   <li><a>Legal</a></li>
   
@@ -103,5 +143,7 @@ function closeNav() {
 });
 </script>
 <script type="text/javascript" src="//st-n.ads5-adnow.com/js/a.js" async></script>  
+
+<script type="text/javascript" src="https://malviyaindia.github.io/glad_india/biodata-resume-maker.js" ></script>  
 </body>
 </html>

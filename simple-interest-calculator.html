@@ -27,10 +27,12 @@
   <!-- Custom Styles -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://www.malviyatimes.com/simple-interest-calculator.css">
 
 </head>
 
 <body>
+  
 <header>
 <a><img class="logo" src="logo.png"></a>
 <div class="sidenav" id="mySidenav" >
@@ -46,23 +48,57 @@
 <span onclick="openNav()"><div class="bars">
 <div class="container" onclick="myFunction(this)">
 <i class="material-icons">menu</i>
+  
+</menu></i>
 </div>
 </div>
 </span>
 </header>
-
-		
-     <div class="flex" style="margin: 35% 5%; text-align: center;">
-     <a href="https://www.malviyatimes.com/calculator.html">
-             <i class="fas fa-exclamation-triangle"></i>
-       <h1>404 Error</h1>
-       
-       <p class="fas fa-external-link-alt"> There's nothing here! Go to malviya times</p>
-   </a>
-   <br><br><br>
- <h1 class="h1 fas fa-bomb"> Sorry, that page doesn’t exist!</h1> 
+  <div class="y">
+<h2> Simple Interest Calculator </h2>
+<p> Create  free awesome and job winning resume within 1 to 2 minute.</p>	
 </div>
-  <!-- Project -->
+<div class="div1" >
+     <form name="frm">
+   <label> <i class="fas fa-rupee-sign"></i> Principal</label>
+     <input type="number" name="amount" id="amount" value="" class="input" min="0"  onkeyup="AllowNumber()"/>
+      
+   <label> <i class="fas fa-percent"></i> Rate</label>
+     <input type="number" name="rate" id="per" value="" min="0" max="3"     class="input" />
+     
+   <label><i class="far fa-calendar-alt"></i> Time Period</label>
+
+   <select id="peroid" class="choice">
+ 
+  <option value="year">Years</option>
+
+  <option value="month">Months</option>
+
+  <option value="weeks">Weeks</option>
+
+   <option value="days">Days</option>
+   </select>
+      <input type="number" name="time" value="" id="time" min="0" class="input"/>
+
+
+
+<label><i class="fas fa-chart-pie"></i> Interest</label>
+ 
+    <input type="text" id="interest" value="" name="interest" class="input" readonly/>
+  
+ <label><i class="fas fa-coins"></i> Total Amount</label>
+    <input type="text" id="total" name="total" value="" class="input" readonly/>
+
+    
+   <input type="button" name="cal" id="cal" value="Calculate" class="cal" onclick="cali()"/>
+   
+
+     <input type="reset" name="clear" id="cal" value="Clear" class="cal"/>
+
+  </form>
+    <div class="addthis_inline_share_toolbox"><p>Share This Page !</p><br></div>
+  </div>
+ 
   <!-- footer area--->
   <footer>
   <div class="social">
@@ -86,6 +122,9 @@
 </ul>
   <p>© 2021 Malviya Times | All Rights Reserved</p>
   </footer>
+    
+       
+   
   <!-- Go to www.addthis.com/dashboard to customize your tools -->
   <script src="a2hs.js"></script>
  <script>
@@ -103,5 +142,6 @@ function closeNav() {
 });
 </script>
 <script type="text/javascript" src="//st-n.ads5-adnow.com/js/a.js" async></script>  
+<script type="text/javascript" src="https://malviyaindia.github.io/glad_india/simple-interest-calculator.js" ></script>  
 </body>
 </html>

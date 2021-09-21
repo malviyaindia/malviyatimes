@@ -28,6 +28,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
+ <link rel="stylesheet" href="https://www.malviyatimes.com/calculator.css">
+
 </head>
 
 <body>
@@ -50,19 +52,24 @@
 </div>
 </span>
 </header>
+ <div id="example">
+ <h1> N<sup>n</sup> = N × N </h1>
 
-		
-     <div class="flex" style="margin: 35% 5%; text-align: center;">
-     <a href="https://www.malviyatimes.com/calculator.html">
-             <i class="fas fa-exclamation-triangle"></i>
-       <h1>404 Error</h1>
-       
-       <p class="fas fa-external-link-alt"> There's nothing here! Go to malviya times</p>
-   </a>
-   <br><br><br>
- <h1 class="h1 fas fa-bomb"> Sorry, that page doesn’t exist!</h1> 
+ <input type="number" id="numberinput" name="amount" autofocus>
+ 
+<button style="width: 60%;" id="say">Calculate</button>
+<button style="width: 38.2%;"   onclick= "document.getElementById('numberinput').value = ''">Clear</button>
+
+ <div id="result" >Answer...</div>
 </div>
-  <!-- Project -->
+
+<div class="about">
+  <h2 style="padding-bottom: 15px"> Malviya Calculator</h2>
+<p>This calculator can help answer the question
+With the help of Malviya calculator, you can easily find the square cube of any math number.  With the help of Malviya calculator, you can calculate the number to the power of 15.</0>
+</div>
+ <div class="addthis_inline_share_toolbox"><p>Share This Page !</p><br></div>
+</div>
   <!-- footer area--->
   <footer>
   <div class="social">
@@ -103,5 +110,6 @@ function closeNav() {
 });
 </script>
 <script type="text/javascript" src="//st-n.ads5-adnow.com/js/a.js" async></script>  
+<script type="text/javascript" src="https://malviyaindia.github.io/glad_india/calculator.js" ></script>  
 </body>
 </html>

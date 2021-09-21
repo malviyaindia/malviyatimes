@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&display=swap');
 *{
    margin: 0;
    outline: none;
@@ -7,92 +6,36 @@
 html{
 	height: 100%;
 }
-.selection{
-text-align: center;
-font-weight: bolder;
-font-size: 18px;
-background: white;
-margin: 55px 0 10px 0;
-padding: 8px 5px 0px 10px;
-box-shadow: 0px 0.1px 3px gray;
-border-bottom: 0.5px solid black;
-}
-
-.selection a{
-   color: gray;
-   margin: 0 10%;
-   padding: 0 0 8px 0;
-   text-decoration: none;
-}
-.selection a:hover{
-  color: #008BD6;
-  border-bottom: 2px solid #008BD6;
-}
-.selection a:visited{
-  color: gray;
-}
-
 body{
-   font-size: 11pt;
+   font-size: 18px;
+   background: white;
    color: #000030;
    font-family: Arial, sans-serif;
-   
-   background: whitesmoke;
    display: flex;
    flex-direction: column;
    height: 100%; 
 }
-.grid-container{
-  display: grid;
-  background: white;
-  margin: 10px 5px;
-  padding: 5px;
-  grid-template-columns: 40% 60%;
-  border-radius: 10px;
-  box-shadow: 0px 1px 2px gray;
-  text-decoration: none;
-  
+#result {
+   font-size: 18pt;
+   color: #000032;
+   margin: 20px 10px; 
+   font-family: serif;
+   margin: 25px;
+   font-weight: bold;
+   
 }
- a{
-  color: dimgray;
+.y{
+	 margin: 5% 10%;
+	 border-bottom: 1px solid #008BD6;
 }
- a:visited {
-  color: dimgray;
-}
-.grid-item{
-  padding: 0px;
-  background: white;
-  margin: 5px;
-  
-}
-
-#item1{
-  grid-row-start:1;
-  grid-row-end:3 ;
- 
-}
-#item1 img{
-  width: 100%;
-  height: 96px;
-  border-radius: 0px;
-  border-radius: 5px;
-}
-#item2{
-  height: 72px;
-  font-weight: bold;
-  overflow: hidden;
-}
-#item3{
-  height: 12px;
-  font-size: 10px;
-  color: #008BD6;
-  overflow: hidden;
-}
-
+.div1{
+  font-weight: bold; 
+  margin: 0% 10%;
+}/*
 .material-icons{
         font-size: 35px;
-        color: #000030;
-}
+        color:  #008BD6;
+}*/
 .version{
    display: none;
   }
@@ -111,22 +54,38 @@ input,select{
       font-size: 20px;
       border-radius: 6px; 
 }
-
+#cal {
+      border: 1.2px solid white;
+      text-align: center;
+      font-size: 25px;
+      background: #008BD6;
+      width: 100%;
+      padding: 5px 8px;
+      
+      box-sizing: border-box;
+     
+      font-weight: bold;
+      border-radius: 6px; 
+      color: white;
+      
+}
+#cal:hover{
+	background: #00ccff;
+	color: white;
+ 
+}/*
 header{
   padding:15px;
   background: white;
-  border-bottom: 0.5px solid black;
-  border-radius: 5% 5% 0 0;
+  box-shadow: 0px 0.1px 3px gray;
+
 }
 .logo{
- width: 160px;
+ width: 60px;
  border-radius: 5px;
- margin:5px 10px;
- 
+ margin-left: 10px;
 }
-
 .sidenav {
-  font-family: 'STIX Two Text', serif;
   float: right;
   margin: 10px;
 }
@@ -142,48 +101,25 @@ header{
 }
 .bars, .closebtn{
   display: none;
-}
+}/*
 footer{
-  border-radius: 5% 5% 0 0;
-  text-align: center;
+  text-align: right;
   padding: 5%;
   margin-top: auto;
   font-size: 20px;
-  background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png),gray;
+  background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to top ,#00ccff,#008BD6);
   color: white;
 }
-
 footer a{
-  padding-top: 10px;
-  font-size: 15px;
-  color: white;
   text-decoration: none;
-  
+  color: white;
+  padding: 10px;
 }
 footer P{
   padding-top: 10px;
-  font-size: 10px;
-  color: white;
+  font-size: 12px;
   
-}
-.social a{
-  color: white;
-  padding: 15px 5px;
-  font-size: 30px;
-}
-footer ul{
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-footer ul li {
-  
-  display: inline-block;
-  padding: 0 10px;
-}
-
-
+}*/
 .addthis_inline_share_toolbox{
   text-align: center;
   padding: 30px ;
@@ -191,20 +127,21 @@ footer ul li {
   font-weight: normal;
 }
 @media screen and (max-width: 960px){
-  header{
+  /*header{
   padding: 6px;
   top: 0;
   right: 0;
   left: 0;
-  position: fixed;
+  background:white;
   }
  .logo{
-  width: 90px;
-  margin: 4px 0px 0px 10px;
+  width: 40px;
+  margin: 0px 0px 0px 10px;
   float: left;
 }
 .bars{
         float: right;
+      
        margin-top: 2px;
 } 
 .sidenav {
@@ -213,7 +150,7 @@ footer ul li {
   position: fixed;
   top: 0;
   right:0;
-  background: whitesmoke;
+  background: white;
   overflow-x: hidden;
   transition: 0.5s;
   margin: 0px;
@@ -247,5 +184,11 @@ footer ul li {
     bottom: 15%; 
     margin: 0% 30%;
     color: #000030;
+  }*/
+  .y{
+    margin: 20% 5% 0%;
   }
+ .div1{
+   margin: 5% 5%;
+ } 
 }
