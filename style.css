@@ -7,31 +7,14 @@
 html{
 	height: 100%;
 }
-.selection{
-text-align: center;
-font-weight: bolder;
-font-size: 18px;
-background: white;
-margin: 55px 0 10px 0;
-padding: 8px 5px 0px 10px;
-box-shadow: 0px 0.1px 3px gray;
-border-bottom: 0.5px solid black;
+.sky{
+ position: fixed;
+ top:0;
+ left: 0;
+ right: 0;
 }
-
-.selection a{
-   color: gray;
-   margin: 0 10%;
-   padding: 0 0 8px 0;
-   text-decoration: none;
-}
-.selection a:hover{
-  color: #008BD6;
-  border-bottom: 2px solid #008BD6;
-  padding: 0 0 6px 0;
-}
-
 body{
-   font-size: 11pt;
+   font-size: 12pt;
    color: #000030;
    font-family: Arial, sans-serif;
    
@@ -39,6 +22,47 @@ body{
    display: flex;
    flex-direction: column;
    height: 100%; 
+}
+.xmain{
+ background: black;
+ width: 100%;
+ padding: 0px; 
+ margin: 0px 0 0 0;
+ font-size: 12.5pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.xgrid-container i{
+ text-indent: -30px;}
+.xgrid-container a{
+ font-weight: bold;
+ padding: 10pt 2pt 6pt 20pt;
+ font-weight: bold;
+ text-align: center;
+ color: gray;
+ text-decoration: none;
+}
+ #active{
+ border-bottom: 2px solid #008BD6;
+ padding-bottom: 4pt;
+ color: #008BD6; 
+}
+.xgrid-container::-webkit-scrollbar {
+  display: none;
+}
+.xgrid-container{
+ justify-content: center;
+ background: white;
+ display: grid;
+ grid-template-columns: auto auto auto auto auto;
+ box-sizing: border-box;
+ width: 100%;
+ overflow-x: scroll;
+ box-shadow: 0px 0.1px 3px gray;
+ 
+}
+.xgrid-item{
+ background: white;
+ margin: 0px 20px;
 }
 .grid-container{
   display: grid;
@@ -113,12 +137,11 @@ input,select{
 header{
   padding:15px;
   background: white;
-  border-bottom: 0.5px solid black;
-  border-radius: 5% 5% 0 0;
+  border-bottom: 0.1px solid gray;
+ 
 }
 .logo{
- width: 160px;
- border-radius: 5px;
+ width: 100px;
  margin:5px 10px;
  
 }
@@ -194,7 +217,7 @@ footer ul li {
   top: 0;
   right: 0;
   left: 0;
-  position: fixed;
+  position: relative;
   }
  .logo{
   width: 90px;
@@ -243,7 +266,7 @@ footer ul li {
     display: block;
     position: absolute; 
     bottom: 15%; 
-    margin: 0% 30%;
+    margin: 0 35%;
     color: #000030;
   }
 }
