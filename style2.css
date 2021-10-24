@@ -1,0 +1,24 @@
+
+.how_to_install{
+  
+  width: 100%;
+  height: 230px;
+  padding: 15px 0px;
+  overflow-x: scroll;
+  
+}
+section.how_to_install>div {
+            padding: 0;
+            width: 1220px;
+        }
+ 
+        section.how_to_install .item {
+          
+            float: left;
+            margin-right: 15px;
+        }
+ section.how_to_install img{
+   border-radius: 10px;
+   border: 4px solid white;
+   box-shadow: 2px 1px 4px gray;
+ }
