@@ -11,14 +11,14 @@ section.how_to_install>div {
             width: 1300px;
         }
  
- section.how_to_install .item {
+ section.how_to_install .zitem {
           
             float: left;
             margin-right: 15px;
         }
  section.how_to_install img{
    border-radius: 10px; }
-  .item p{
+  .zitem p{
    color: gray;
    width: 220px;
    font-size: 14px;
@@ -27,7 +27,7 @@ section.how_to_install>div {
    padding: 4px 10px;
    margin: 0;
  }
-  .item b{
+  .zitem b{
     
    display: block;
    color: #008BD6;
@@ -38,10 +38,10 @@ section.how_to_install>div {
    padding: 4px 10px;
    margin: 0;
  }
- a{
+.how_to_install a{
    text-decoration: none;
  }
- .item{
+ .zitem{
    background: white;
    height: 220px;
    border-radius: 10px;
