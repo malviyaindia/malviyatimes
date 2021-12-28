@@ -163,11 +163,11 @@ header{
   color: #000030;
   padding: 5px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 15px;
 }
 .sidenav a:hover {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
 }
 .bars, .closebtn{
   display: none;
