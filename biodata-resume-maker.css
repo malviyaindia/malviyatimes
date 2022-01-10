@@ -421,7 +421,7 @@ input{
     margin: 0px 20px;
     float: left; }
 
-header,button,footer,.x,.y,.fa-print,.addthis_inline_share_toolbox{ 
+#xmain,header,button,footer,.x,.y,.fa-print,.addthis_inline_share_toolbox{ 
   display: none;
   visibility: hidden;}
 
