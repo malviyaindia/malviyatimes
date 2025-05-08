@@ -314,7 +314,7 @@ footer ul li {
     height: 128px;
     padding: 10px;
     margin: 10px;
-    box-shadow:1px 1px 8px lightgray, -1px -1px 8px lightgray;;
+    box-shadow:1px 1px 8px lightgray, -1px -1px 8px lightgray;
     display: inline-block;
 
 }	
