@@ -228,7 +228,7 @@ footer ul li {
     width: 10%;
     height: 40%;
     display: inline-block;
-    background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom,#01FFE7,#008BD6);
+    background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom,lightgray ,gray);
     box-shadow: 1px 1px 8px lightgray, -1px -1px 8px lightgray;
     border-radius: 10%;
     margin: 5%;
