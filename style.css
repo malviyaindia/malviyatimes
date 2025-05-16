@@ -243,11 +243,11 @@ footer ul li {
 }
 .ia{
      color: white;
-     background: #008BD6;
+     background: #ffffff;
      padding: 5%;
      font-size: 50px;
      border-radius: 10%;
-     border: 0.1px solid white;
+     border: 1px outset white;
      
 }
 @media screen and (max-width: 960px){
