@@ -233,6 +233,7 @@ footer ul li {
     border-radius: 10%;
     margin: 5%;
     padding: 2%;
+    border: 1px inset white;
     border-radius: 10px;
     text-align: center;
 
