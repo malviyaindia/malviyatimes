@@ -241,6 +241,7 @@ footer ul li {
 .div2 a{
     color:white;
     display: block;
+    text-decoration: none;
 }
 .ia{
      color: white;
