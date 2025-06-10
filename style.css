@@ -31,6 +31,13 @@ body{
    flex-direction: column;
    height: 100%; 
 }
+.cp{
+    font-weight:bold;
+    text-align:center;
+    color:#008BD6;
+    background:#ffffff;
+    margin-top:1%; 
+}
 .xmain{
  background: black;
  width: 100%;
