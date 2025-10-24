@@ -27,11 +27,7 @@ header{
  border-radius: 5px;
 }
 
-.sidenav {
-       
-  float: right;
-  margin: 10px;
-}
+
 .sidenav a {
   color:  #000030;
   padding: 5px;
@@ -64,6 +60,11 @@ footer P{
   font-size: 12px;
   font-weight: normal;
 }*/
+.sidenav {
+  font-family: 'STIX Two Text', serif;    
+  float: right;
+  margin: 10px;
+}
 .y{
 background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png);
 
