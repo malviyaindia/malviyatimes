@@ -61,7 +61,7 @@ footer P{
   font-weight: normal;
 }*/
 .sidenav {
-  font-family: 'STIX Two Text', serif;    
+  font-family: 'STIX Two Text', serif !important;    
   float: right;
   margin: 10px;
 }
